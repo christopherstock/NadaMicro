@@ -15,5 +15,10 @@
         "psr-0": {
             "de\\mayflower\\nada": "src/php/"
         }
+    },
+    "scripts":{
+        "phpdoc": "phpdoc -d src\\php -t doc",
+        "test": "phpunit src\\test",
+        "dev": "php src\\php\\index.php"
     }
 }
