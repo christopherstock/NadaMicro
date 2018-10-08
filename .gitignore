@@ -3,6 +3,7 @@
 /.idea
 
 # backend
+/backend/doc
 /backend/vendor
 /backend/composer.lock
 /backend/backend.iml
