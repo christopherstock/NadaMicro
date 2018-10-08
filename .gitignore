@@ -1,12 +1,12 @@
 
 # intelliJ
-.idea
+/.idea
 
 # backend
-backend/vendor
-backend/composer.lock
-backend/backend.iml
+/backend/vendor
+/backend/composer.lock
+/backend/backend.iml
 
 # frontend
-frontend/node_modules
-frontend/frontend.iml
+/frontend/node_modules
+/frontend/frontend.iml
