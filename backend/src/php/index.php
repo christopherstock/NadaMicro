@@ -2,17 +2,16 @@
 
     require_once( __DIR__ . '/../../vendor/autoload.php' );
 
-    // TODO try to include all classes from one package?
-    use de\mayflower\nada\Main;
-    use de\mayflower\nada\util\Util;
-    use PHPUnit\Util\Test;
+    use de\mayflower\nada\{ Main };
+    use de\mayflower\nada\util\{ Math, Util };
+    use PHPUnit\Util\{ Test };
 
     /**
      *  This is the starting script for nada that does nothing for everybody.
      *
-     *  TODO Add symfony Edge support
      *  TODO PHPDoc
-     *  TODO Add jenkins
+     *  TODO Add symfony Edge support
+     *  TODO Add jenkins support
      *  TODO Add swagger doc tool
      *
      *  TODO Add node.js frontend
@@ -30,3 +29,6 @@
 
     echo '3. Composer Autoloading - Invoke different custom package.' . "\n\n";
     Main::main();
+
+    echo '4. Composer Autoloading - sine   of 90 degrees [' . Math::sinDegrees( 90 ) . ']' . "\n\n";
+    echo '                          cosine of  0 degrees [' . Math::cosDegrees( 0  ) . ']' . "\n\n";
