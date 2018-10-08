@@ -13,7 +13,6 @@
     *   TODO Add swagger doc tool
     *   TODO PHPDoc
     *   TODO Add symfony Edge support
-    *
     */
     echo 'PHP > index.php being invoked' . "\n";
 
