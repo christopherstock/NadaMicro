@@ -1,10 +1,15 @@
 {
-    "name": "stock/nada_micro",
+    "name": "christopherstock/nada_micro",
     "description": "A Microservice that does nada",
     "type": "project",
     "require": {
         "phpmailer/phpmailer": "^6.0",
         "phpunit/phpunit": "^6.5"
     },
-    "license": "private"
+    "license": "private",
+    "autoload": {
+        "psr-0": {
+            "de\\mayflower\\nada": "src/php/"
+        }
+    }
 }
