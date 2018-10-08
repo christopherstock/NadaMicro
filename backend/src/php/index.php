@@ -9,7 +9,7 @@
     /**
      *  This is the starting script for nada that does nothing for everybody.
      *
-     *  TODO PHPDoc
+     *  TODO Fix PHPDoc
      *  TODO Add symfony Edge support
      *  TODO Add jenkins support
      *  TODO Add swagger doc tool
