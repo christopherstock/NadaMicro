@@ -7,13 +7,21 @@
     use PHPUnit\Util\Test;
 
     /**
-    *   This is the starting script for nada that does nothing for everybody.
-    *
-    *   TODO Add jenkins
-    *   TODO Add swagger doc tool
-    *   TODO PHPDoc
-    *   TODO Add symfony Edge support
-    */
+     *  This is the starting script for nada that does nothing for everybody.
+     *
+     *  TODO Customize PHPUnit:
+     *  TODO 1. PHPUnit own test runner in index.php
+     *  TODO 2. run config for PHPUnit via PHPStorm!
+     *
+     *  TODO Add symfony Edge support
+     *  TODO PHPDoc
+     *  TODO Add jenkins
+     *  TODO Add swagger doc tool
+     *
+     *  TODO Add node.js frontend
+     *  TODO Add webpack + TypeScript support
+     *  TODO Add Material-UI
+     */
     echo "\n" . 'PHP > index.php being invoked' . "\n\n";
 
     // test composer autoload
