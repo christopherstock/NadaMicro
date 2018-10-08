@@ -10,11 +10,11 @@
         /**
          *  Formats the given number.
          *
-         *  @param int $number The number to format.
+         *  @param float $number The number to format.
          *
          *  @return string The formatted number with two decimal digits.
          */
-        public final function formatNumber( int $number ) : string
+        public final function formatNumber( float $number ) : string
         {
             return number_format( $number, 2 );
         }

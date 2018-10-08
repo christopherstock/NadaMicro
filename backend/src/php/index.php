@@ -2,16 +2,13 @@
 
     require_once( __DIR__ . '/../../vendor/autoload.php' );
 
+    // TODO try to include all classes from one package?
     use de\mayflower\nada\Main;
     use de\mayflower\nada\util\Util;
     use PHPUnit\Util\Test;
 
     /**
      *  This is the starting script for nada that does nothing for everybody.
-     *
-     *  TODO Customize PHPUnit:
-     *  TODO 1. PHPUnit own test runner in index.php
-     *  TODO 2. run config for PHPUnit via PHPStorm!
      *
      *  TODO Add symfony Edge support
      *  TODO PHPDoc
