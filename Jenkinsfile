@@ -6,6 +6,12 @@ pipeline {
 
         stage('show environment') {
             steps {
+
+
+                echo 'Use user stock'
+                sh 'sudo su - stock -s/bin/bash'
+
+
                 echo 'I am ..'
                 sh 'whoami'
 
