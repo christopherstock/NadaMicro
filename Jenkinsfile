@@ -25,9 +25,9 @@ pipeline {
             {
                 stage( 'Install Composer Dependencies' )
                 {
-                    dir( 'backend' )
+                    steps
                     {
-                        steps
+                        dir( 'backend' )
                         {
                             echo 'Install Composer dependencies'
                             sh 'composer install'
@@ -37,9 +37,9 @@ pipeline {
 
                 stage( 'Perform PHPUnit backend tests' )
                 {
-                    dir( 'backend' )
+                    steps
                     {
-                        steps
+                        dir( 'backend' )
                         {
                             echo 'Perform PHPUnit backend tests'
                             sh 'composer test'
