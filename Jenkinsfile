@@ -30,7 +30,7 @@ pipeline {
                         dir( 'backend' )
                         {
                             echo 'Install Composer dependencies'
-                            sh 'composer install'
+                            sh '/c/wamp64/bin/php/php7.2.10/php.exe "/c/Program Files/composer" install'
                         }
                     }
                 }
@@ -42,7 +42,7 @@ pipeline {
                         dir( 'backend' )
                         {
                             echo 'Perform PHPUnit backend tests'
-                            sh 'composer test'
+                            sh '/c/wamp64/bin/php/php7.2.10/php.exe "/c/Program Files/composer" test'
                         }
                     }
                 }
