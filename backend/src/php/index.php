@@ -11,7 +11,9 @@
      *
      *  DevOps tasks
      *  ============
-     *  TODO Add jenkins support
+     *  TODO Try jenkins support
+     *  TODO Solve jenkins autobuilds
+     *
      *  TODO Install docker and run in containers
      *  TODO Run Docker on AWS in an EC2 instance and deploy all services
      *
