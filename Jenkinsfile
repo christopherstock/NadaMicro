@@ -7,7 +7,7 @@ pipeline {
         stage('show environment') {
             steps {
                 echo 'I am ..'
-                sh 'php --version'
+                sh 'whoami'
 
                 echo 'PHP version is:'
                 sh 'php --version'
