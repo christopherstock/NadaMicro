@@ -1,18 +1,10 @@
 pipeline {
-
     agent any
-
     stages {
-
         stage('show environment') {
             steps {
 
-
-                echo 'Use user stock'
-                sh 'su - stock -s/bin/bash'
-
-
-                echo 'I am ..'
+                echo 'The Jenkins shell user is:'
                 sh 'whoami'
 
                 echo 'PHP version is:'
@@ -22,9 +14,12 @@ pipeline {
                 sh 'node --version'
             }
         }
+        stage('backend') {
+            steps {
 
-
-
-
+                echo 'PHP Tests'
+                sh 'backend/vendor/bin/composer test'
+            }
+        }
     }
 }
