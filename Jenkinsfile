@@ -2,8 +2,8 @@ pipeline {
 
     agent any
 
-    stages {
-
+    stages
+    {
         stage( 'show environment' )
         {
             steps
@@ -21,23 +21,26 @@ pipeline {
 
         stage( 'backend' )
         {
-            dir( 'backend' )
+            steps
             {
-                stage( 'Install Composer Dependencies' )
+                dir( 'backend' )
                 {
-                    steps {
-
-                        echo 'Install Composer dependencies'
-                        sh 'composer install'
+                    stage( 'Install Composer Dependencies' )
+                    {
+                        steps
+                        {
+                            echo 'Install Composer dependencies'
+                            sh 'composer install'
+                        }
                     }
-                }
 
-                stage( 'Perform PHPUnit backend tests' )
-                {
-                    steps {
-
-                        echo 'Perform PHPUnit backend tests'
-                        sh 'composer test'
+                    stage( 'Perform PHPUnit backend tests' )
+                    {
+                        steps
+                        {
+                            echo 'Perform PHPUnit backend tests'
+                            sh 'composer test'
+                        }
                     }
                 }
             }
