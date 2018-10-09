@@ -12,7 +12,7 @@ pipeline {
                 sh 'whoami'
 
                 echo 'PHP version is:'
-                sh 'php --version'
+                sh '/c/wamp64/bin/php/php7.2.10/php.exe --version'
 
                 echo 'Node version is:'
                 sh 'node --version'
