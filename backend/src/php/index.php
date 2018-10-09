@@ -9,15 +9,6 @@
     /**
      *  This is the starting script for nada that does nothing for everybody.
      *
-     *  DevOps tasks
-     *  ============
-     *  TODO Try jenkins support
-     *  TODO Install Jenkins on AWS EC2 instance.
-     *  TODO Solve jenkins autobuilds
-     *
-     *  TODO Install docker and run in containers
-     *  TODO Run Docker on AWS in an EC2 instance and deploy all services
-     *
      *  backend tasks
      *  =============
      *  TODO Add symfony edge support
@@ -33,6 +24,10 @@
      *  ===============
      *  TODO Fix PHPDoc
      *  TODO Realize microservice architecture
+     *  TODO Install Jenkins on AWS EC2 instance.
+     *  TODO Solve jenkins webhook & build triggers
+     *  TODO Install docker and run in containers
+     *  TODO Run Docker on AWS in an EC2 instance and deploy all services
      */
     echo "\n" . 'PHP > index.php being invoked' . "\n\n";
 

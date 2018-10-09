@@ -8,4 +8,4 @@
 09.10.2018, day 02: Instll Jenkins.
                     Create and configure a Jenkinsfile and a multibranch pipeline.
                     Webhooks and Build Triggers.                    
-                    
+                    Jenkins as localhost on Windows with Git Shell is just a pain in the ass!
