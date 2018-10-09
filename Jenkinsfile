@@ -21,11 +21,11 @@ pipeline {
 
         stage( 'backend' )
         {
-            steps
+            stages
             {
-                dir( 'backend' )
+                stage( 'Install Composer Dependencies' )
                 {
-                    stage( 'Install Composer Dependencies' )
+                    dir( 'backend' )
                     {
                         steps
                         {
@@ -33,8 +33,11 @@ pipeline {
                             sh 'composer install'
                         }
                     }
+                }
 
-                    stage( 'Perform PHPUnit backend tests' )
+                stage( 'Perform PHPUnit backend tests' )
+                {
+                    dir( 'backend' )
                     {
                         steps
                         {
