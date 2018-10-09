@@ -17,8 +17,14 @@ pipeline {
         stage('backend') {
             steps {
 
+                echo 'Switch to backend'
+                sh 'cd backend'
+
+                echo 'Install Composer dependencies'
+                sh 'composer install'
+
                 echo 'PHP Tests'
-                sh 'backend/vendor/bin/composer test'
+                sh 'composer test'
             }
         }
     }
