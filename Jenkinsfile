@@ -18,13 +18,15 @@ pipeline {
             steps {
 
                 echo 'Switch to backend'
-                sh 'cd backend'
-
-                echo 'Install Composer dependencies'
-                sh 'composer install'
-
-                echo 'PHP Tests'
-                sh 'composer test'
+                
+                dir( 'backend' )
+                {
+                    echo 'Install Composer dependencies'
+                    sh 'composer install'
+    
+                    echo 'PHP Tests'
+                    sh 'composer test'
+                }
             }
         }
     }
