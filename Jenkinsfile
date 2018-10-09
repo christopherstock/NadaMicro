@@ -1,9 +1,13 @@
 pipeline {
-    agent any
-    stages {
-        stage('show environment') {
-            steps {
 
+    agent any
+
+    stages {
+
+        stage( 'show environment' )
+        {
+            steps
+            {
                 echo 'The Jenkins shell user is:'
                 sh 'whoami'
 
@@ -14,18 +18,27 @@ pipeline {
                 sh 'node --version'
             }
         }
-        stage('backend') {
-            steps {
 
-                echo 'Switch to backend'
-                
-                dir( 'backend' )
+        stage( 'backend' )
+        {
+            dir( 'backend' )
+            {
+                stage( 'Install Composer Dependencies' )
                 {
-                    echo 'Install Composer dependencies'
-                    sh 'composer install'
-    
-                    echo 'PHP Tests'
-                    sh 'composer test'
+                    steps {
+
+                        echo 'Install Composer dependencies'
+                        sh 'composer install'
+                    }
+                }
+
+                stage( 'Perform PHPUnit backend tests' )
+                {
+                    steps {
+
+                        echo 'Perform PHPUnit backend tests'
+                        sh 'composer test'
+                    }
                 }
             }
         }
