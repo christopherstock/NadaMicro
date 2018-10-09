@@ -9,7 +9,7 @@ pipeline {
 
 
                 echo 'Use user stock'
-                sh 'sudo su - stock -s/bin/bash'
+                sh 'su - stock -s/bin/bash'
 
 
                 echo 'I am ..'
