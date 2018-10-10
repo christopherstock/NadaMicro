@@ -12,7 +12,7 @@ pipeline {
                 sh 'whoami'
 
                 echo 'PHP version is:'
-                sh '/c/wamp64/bin/php/php7.2.10/php.exe --version'
+                sh 'php --version'
 
                 echo 'Node version is:'
                 sh 'node --version'
@@ -30,7 +30,7 @@ pipeline {
                         dir( 'backend' )
                         {
                             echo 'Install Composer dependencies'
-                            sh '/c/wamp64/bin/php/php7.2.10/php.exe "/c/Program Files/composer/composer.phar" install'
+                            sh 'php composer install'
                         }
                     }
                 }
@@ -42,7 +42,7 @@ pipeline {
                         dir( 'backend' )
                         {
                             echo 'Perform PHPUnit backend tests'
-                            sh '/c/wamp64/bin/php/php7.2.10/php.exe "/c/Program Files/composer/composer.phar" test'
+                            sh 'php composer test'
                         }
                     }
                 }
