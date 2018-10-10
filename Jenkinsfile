@@ -31,7 +31,7 @@ pipeline {
                         dir( 'backend' )
                         {
                             echo 'Install Composer dependencies'
-                            sh 'php composer install'
+                            sh 'composer install'
                         }
                     }
                 }
@@ -43,7 +43,7 @@ pipeline {
                         dir( 'backend' )
                         {
                             echo 'Perform PHPUnit backend tests'
-                            sh 'php composer test'
+                            sh 'composer test'
                         }
                     }
                 }
