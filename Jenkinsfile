@@ -13,9 +13,10 @@ pipeline {
 
                 echo 'PHP version is:'
                 sh 'php --version'
-
+/*
                 echo 'Node version is:'
                 sh 'node --version'
+*/
             }
         }
 
