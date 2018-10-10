@@ -17,8 +17,8 @@
         }
     },
     "scripts":{
-        "phpdoc": "phpdoc -d src\\php -t doc",
-        "test": "phpunit src\\test",
-        "dev": "php src\\php\\index.php"
+        "phpdoc": "phpdoc -d src/php -t doc",
+        "test": "phpunit src/test",
+        "dev": "php src/php/index.php"
     }
 }
