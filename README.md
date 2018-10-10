@@ -5,4 +5,3 @@ This is just a learn project for setting up frontend and backend TechStacks from
 Nada might be a bleeding edge web-application microservice that does nothing for everybody one day.
 
 ### TechStack includes:
-
