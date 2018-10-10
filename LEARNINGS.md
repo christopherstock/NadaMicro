@@ -4,7 +4,7 @@
                     Namespaces and namespace usage (multiple class file usages) in PHP.
                     Install and run PHPDocumentor via composer and bash support.
                     Create composer scripts ( for dev execution, PHPUnit tests and PHPDocumentor generation )
-                    
+
 09.10.2018, day 02: Install Jenkins on Windows.
                     Create and configure a Jenkinsfile and a multibranch pipeline.
                     Webhooks and Build Triggers will never work with a localhost Jenkins.
@@ -15,4 +15,3 @@
                     Install composer on AWS.
                     Enjoy flawless Jenkins Multibranch Pipelines with GIT Sources on AWS.
                     Jenkins Webhooks are .. many different inoperative plugins?
-                    
