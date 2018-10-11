@@ -1,0 +1,3 @@
+#index:
+#    path: /
+#    controller: de\mayflower\nada\Controller\DefaultController::index
