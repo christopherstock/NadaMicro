@@ -18,3 +18,5 @@
 - Install composer on AWS.
 - Enjoy flawless Jenkins Multibranch Pipelines with GIT Sources on AWS.
 - Jenkins Webhooks are .. many different inoperative plugins?
+
+### day 4 - 11.10.2018:
