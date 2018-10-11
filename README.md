@@ -11,3 +11,4 @@ Nada might be a bleeding edge web-application microservice that does nothing for
 - PHPUnit 7.4.9
 - PHPDocumentor 2.91
 - Jenkins 2.145
+- Symfony 4.1.6

@@ -23,3 +23,6 @@
 - Solved webhooks after inserting the correct webhook URL in GitHub project
   ('/github-webhook' instead of '/generic-webhook-trigger/invoke')
 - TODO lists shall be outsourced into a separate .md file or to an external project system (JIRA etc.).
+- Symfony 4 is highly flexible but comes with a sceleton installer.
+- Symfony 4 has an own PHPUnit bridge.
+- PHPDocumentor is problematic via composer and can't be installed together with Symfony 4.
