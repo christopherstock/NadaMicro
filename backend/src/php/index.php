@@ -7,30 +7,8 @@
     use PHPUnit\Util\{ Test };
 
     /**
-     *  This is the starting script for nada that does nothing for everybody.
-     *
-     *  global
-     *  ======
-     *  outsource TODO list to separate .md file
-     *
-     *  backend tasks
-     *  =============
-     *  TODO Add symfony edge support
-     *  TODO Add swagger doc tool
-     *
-     *  frontend tasks
-     *  ==============
-     *  TODO Add node.js frontend
-     *  TODO Add webpack + TypeScript support
-     *  TODO Add Material-UI
-     *  TODO Add a proper 'fetch' library
-     *
-     *  secondary tasks
-     *  ===============
-     *  TODO Fix PHPDoc
-     *  TODO Realize microservice architecture
-     *  TODO Install docker and run in containers
-     *  TODO Run Docker on AWS in an EC2 instance and deploy all services
+     *  This is the backend starting script for nada that does nothing for everybody.
+     *  This script checks if all autploading functionality is operative.
      */
     echo "\n" . 'PHP > index.php being invoked' . "\n\n";
 

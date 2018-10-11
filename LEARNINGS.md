@@ -22,3 +22,4 @@
 ### day 4 - 11.10.2018:
 - Solved webhooks after inserting the correct webhook URL in GitHub project
   ('/github-webhook' instead of '/generic-webhook-trigger/invoke')
+- TODO lists shall be outsourced into a separate .md file or to an external project system (JIRA etc.).
