@@ -7,6 +7,12 @@
 /backend/vendor
 /backend/composer.lock
 /backend/backend.iml
+/backend/.env
+/backend/public/bundles/
+/backend/var/
+/backend/vendor/
+/backend/bin/.phpunit
+/backend/phpunit.xml
 
 # frontend
 /frontend/node_modules

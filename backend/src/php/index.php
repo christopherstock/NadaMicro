@@ -4,7 +4,7 @@
 
     use de\mayflower\nada\{ Main };
     use de\mayflower\nada\util\{ Math, Util };
-    use PHPUnit\Util\{ Test };
+    use symfony\Component\Config\Util\Exception\XmlParsingException;
 
     /**
      *  This is the backend starting script for nada that does nothing for everybody.
@@ -13,7 +13,7 @@
     echo "\n" . 'PHP > index.php being invoked' . "\n\n";
 
     // test composer autoload
-    echo '1. Composer Autoloading - PHPUnit value: [' . Test::MEDIUM . ']' . "\n";
+    echo '1. Composer Autoloading - Symfony value: [' . XmlParsingException::class . ']' . "\n";
 
     // test own classes and namespaces
     $util = new Util();

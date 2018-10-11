@@ -27,4 +27,9 @@
 
             $this->assertEquals( $expected, $actual );
         }
+
+        public final function test3() : void
+        {
+            $this->assertEquals( 1, 1 );
+        }
     }

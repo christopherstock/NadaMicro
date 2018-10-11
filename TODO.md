@@ -11,7 +11,8 @@
 #### Backend
 - Add symfony edge support
 - Add swagger doc tool
-- Fix PHPDoc tool
+- Fix PHPDoc tool ( for symfony and for php 7 the tool itself! )
+- Try a different documentor tool for symfony??
 
 #### Frontend
 - Add node.js frontend
