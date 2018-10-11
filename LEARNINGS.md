@@ -20,3 +20,4 @@
 - Jenkins Webhooks are .. many different inoperative plugins?
 
 ### day 4 - 11.10.2018:
+- Solved webhooks after installing some plugins.
