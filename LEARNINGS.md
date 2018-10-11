@@ -20,4 +20,5 @@
 - Jenkins Webhooks are .. many different inoperative plugins?
 
 ### day 4 - 11.10.2018:
-- Solved webhooks after installing some plugins.
+- Solved webhooks after inserting the correct webhook URL in GitHub project
+  ('/github-webhook' instead of '/generic-webhook-trigger/invoke')
