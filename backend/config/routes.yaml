@@ -1,3 +1,13 @@
-#index:
-#    path: /
-#    controller: de\mayflower\nada\Controller\DefaultController::index
+
+# this file contains all the routes
+# routes are mappers from the URL (path) to the invoked function (controller)
+
+# index route
+index:
+    path: /
+    controller: de\mayflower\nada\controller\DefaultController::index
+
+# ping route
+ping:
+    path: /ping
+    controller: de\mayflower\nada\controller\DefaultController::ping
