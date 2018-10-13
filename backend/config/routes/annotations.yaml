@@ -1,0 +1,3 @@
+controllers:
+    resource: ../../src/php/de/mayflower/nada/controller/
+    type: annotation

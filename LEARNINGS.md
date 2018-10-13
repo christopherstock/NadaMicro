@@ -26,3 +26,7 @@
 - Symfony 4 is highly flexible but comes with a sceleton installer.
 - Symfony 4 has an own PHPUnit bridge.
 - PHPDocumentor is problematic via composer and can't be installed together with Symfony 4.
+
+### day 5 - 13.10.2018:
+- Symfony routes are simple and powerful.
+- Annotations for Symfony (Routes) are very handy and easy to install via composer.

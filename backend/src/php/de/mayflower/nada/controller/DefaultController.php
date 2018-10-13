@@ -3,6 +3,7 @@
     namespace de\mayflower\nada\controller;
 
     use Symfony\Component\HttpFoundation\Response;
+    use Symfony\Component\Routing\Annotation\Route;
 
     /**
      *  Represents the default controller without a special purpose.
@@ -10,6 +11,8 @@
     class DefaultController
     {
         /**
+         *  @Route( "/" )
+         *
          *  Represents the index route.
          *
          * @return Response The symfony response.
@@ -24,6 +27,8 @@
         }
 
         /**
+         *  @Route( "/ping" )
+         *
          *  Represents the ping route.
          *
          * @return Response The symfony response.

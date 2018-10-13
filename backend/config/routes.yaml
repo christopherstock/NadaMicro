@@ -3,11 +3,16 @@
 # routes are mappers from the URL (path) to the invoked function (controller)
 
 # index route
-index:
-    path: /
-    controller: de\mayflower\nada\controller\DefaultController::index
+# index:
+#     path: /
+#     controller: de\mayflower\nada\controller\DefaultController::index
 
 # ping route
-ping:
-    path: /ping
-    controller: de\mayflower\nada\controller\DefaultController::ping
+# ping:
+#     path: /ping
+#     controller: de\mayflower\nada\controller\DefaultController::ping
+
+# get customer
+# task/get:
+#     path: /task/{id}
+#     controller: de\mayflower\nada\controller\TaskController::todo
