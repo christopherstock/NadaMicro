@@ -41,4 +41,23 @@
                 . '<b>DefaultController:ping</b>'
             );
         }
+
+        /**
+         *  @Route( "/site" )
+         *
+         *  Represents the site route.
+         *
+         * @return Response The symfony response.
+         */
+        public function site() : Response
+        {
+            return new Response
+            (
+                '<html>
+                    <body>
+                        Test HTML content.
+                    </body>
+                </html>'
+            );
+        }
     }

@@ -33,3 +33,4 @@
 - Multibtanch Pipelines in Jenkins and Webhook are very handy if installed properly.
 - bin/console and flex are powerful support tools for Symfony
 - different HTTP request requirements are specified in the @Route annotation
+- The Symfony Profiler is a very powerful debugging tool for HTML Responses
