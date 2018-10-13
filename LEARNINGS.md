@@ -30,3 +30,6 @@
 ### day 5 - 13.10.2018:
 - Symfony routes are simple and powerful.
 - Annotations for Symfony (Routes) are very handy and easy to install via composer.
+- Multibtanch Pipelines in Jenkins and Webhook are very handy if installed properly.
+- bin/console and flex are powerful support tools for Symfony
+- different HTTP request requirements are specified in the @Route annotation

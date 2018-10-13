@@ -11,7 +11,7 @@
     class TaskController
     {
         /**
-         *  @Route( "/task/{id}" )
+         *  @Route( "/task/{id}", methods={ "GET", "POST" } )
          *
          *  Represents the get route that delivers one task item.
          *

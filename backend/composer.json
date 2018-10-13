@@ -55,7 +55,8 @@
             "@auto-scripts"
         ],
         "dev": "php src/php/index.php",
-        "test": "simple-phpunit src/test --testdox"
+        "test": "simple-phpunit src/test --testdox",
+        "routes:show": "php bin/console debug:router"
     },
     "conflict": {
         "symfony/symfony": "*"
