@@ -3,10 +3,8 @@
 This is a list with all tasks for this project.
 
 ### primal
-- backend: Try TDD for symfony.
 - global: let Jenkins show more information concerning the executed test cases?
 - backend: Checkout routes by GET POST etc.
-- global: Test jenkins webhooks with branches!
 
 #### Global
 - Apply microservice architecture
