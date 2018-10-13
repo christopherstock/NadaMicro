@@ -3,6 +3,7 @@
 
 ### primal
 
+- global: let Jenkins show more information concerning the executed test cases?
 - backend: Checkout routes by GET POST etc.
 - backend: Try TDD for symfony.
 - global: Create new multibranch pipeline in Jenkins
