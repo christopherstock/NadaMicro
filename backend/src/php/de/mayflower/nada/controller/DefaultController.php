@@ -53,11 +53,7 @@
         {
             return new Response
             (
-                '<html>
-                    <body>
-                        Test HTML content.
-                    </body>
-                </html>'
+                '<html><body>Test HTML content.</body></html>'
             );
         }
     }
