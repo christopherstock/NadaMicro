@@ -32,6 +32,9 @@ pipeline {
                         {
                             echo 'Install Composer dependencies'
                             sh 'composer install'
+
+                            echo 'Update Composer dependencies'
+                            sh 'composer update'
                         }
                     }
                 }
