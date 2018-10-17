@@ -11,7 +11,7 @@
     class TaskController
     {
         /**
-         *  @Route( "/task/{id}", methods={ "GET", "POST" } )
+         *  @Route( "/task/{id}", methods={ "GET" } )
          *
          *  Represents the get route that delivers one task item.
          *
@@ -19,14 +19,34 @@
          *
          *  @return Response The symfony response.
          */
-        public function task( string $id ) : Response
+        public function getTask( string $id ) : Response
         {
             return new Response
             (
                 'controller invoked:<br>'
-                . '<b>TaskController:todo('
+                . '<b>TaskController:task('
                 . $id
-                . ')</b>'
+                . ') - GET TASK</b>'
+            );
+        }
+
+        /**
+         *  @Route( "/task/{id}", methods={ "POST" } )
+         *
+         *  Represents the post route that creates a new task item.
+         *
+         *  @param string $id   The id of the task item to deliver.
+         *
+         *  @return Response The symfony response.
+         */
+        public function postTask( string $id ) : Response
+        {
+            return new Response
+            (
+                'controller invoked:<br>'
+                . '<b>TaskController:task('
+                . $id
+                . ') - POST TASK</b>'
             );
         }
     }
