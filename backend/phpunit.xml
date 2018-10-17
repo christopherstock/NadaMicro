@@ -12,4 +12,10 @@
         <!-- define your env variables for the test env here -->
     </php>
 
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src/php</directory>
+        </whitelist>
+    </filter>
+
 </phpunit>

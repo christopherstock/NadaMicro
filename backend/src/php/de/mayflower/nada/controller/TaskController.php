@@ -24,9 +24,9 @@
             return new Response
             (
                 'controller invoked:<br>'
-                . '<b>TaskController:task('
+                . '<b>TaskController:getTask('
                 . $id
-                . ') - GET TASK</b>'
+                . ')</b>'
             );
         }
 
@@ -44,9 +44,9 @@
             return new Response
             (
                 'controller invoked:<br>'
-                . '<b>TaskController:task('
+                . '<b>TaskController:postTask('
                 . $id
-                . ') - POST TASK</b>'
+                . ')</b>'
             );
         }
     }
